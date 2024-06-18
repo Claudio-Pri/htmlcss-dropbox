@@ -56,6 +56,10 @@ a {
     margin-bottom: 20px;
 }
 
+.mar-bot-40 {
+    margin-bottom: 40px;
+}
+
 .blue-btn {
     display: inline-block;
     text-decoration: none;
@@ -258,6 +262,18 @@ main .section-2 .info-container>.small-info {
     border: 3px dashed aqua;
 }
 
+.client-review {
+    padding: 30px;
+    height: 100%;
+
+    background-color: lightsalmon;
+    border: 3px dashed red;
+
+}
+
+.client-logo {
+    width: 50%;
+}
 
 /* FOOTER */
 
