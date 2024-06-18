@@ -15,12 +15,12 @@ html {
     GENERAL
 */
 .container-large {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 .container-small {
-    max-width: 1000px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -29,11 +29,15 @@ html {
 }
 
 .info-container .small-info {
-    width: 30%;
+    width: 35%;
 }
 
 .info-container .big-info {
-    width: 70%;
+    width: 65%;
+}
+
+img {
+    max-width: 100%;
 }
 
 /* HEADER */
@@ -82,13 +86,40 @@ html {
 
 #header-bottom {
     background-color: #B4D0E7;
-    padding: 30px 0;
+
 }
 
 #header-bottom .jumbo-box {
     position: relative;
-
     top: 100px;
+}
+
+#header-bottom .jumbo-box h1 {
+    font-size: 3.8rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+#header-bottom .jumbo-box .info-container {
+    padding: 15px 0;
+}
+
+#header-bottom .jumbo-box .small-info {
+    padding-bottom: 75px;
+}
+
+#header-bottom .jumbo-box .small-info a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #0061FF;
+    color: white;
+    border-radius: 2px;
+
+}
+
+#header-bottom .jumbo-box .small-info>* {
+    margin-bottom: 20px;
 }
 
 
@@ -128,7 +159,7 @@ main {
 
 } */
 
-.debug #header-bottom .jumbo-box {
+/* .debug #header-bottom .jumbo-box {
     background-color: orangered;
     min-height: 300px;
 
@@ -145,7 +176,7 @@ main {
 
 .debug .big-info {
     background-color: navajowhite;
-}
+} */
 
 .debug main {
     background-color: lightsalmon;
