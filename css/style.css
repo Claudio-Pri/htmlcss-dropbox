@@ -59,6 +59,18 @@ img {
 
 }
 
+.white-btn {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+
+}
+
 .blue-txt {
     color: #0061FF;
 }
@@ -197,6 +209,11 @@ main h2 {
     align-items: flex-start;
 }
 
+/*main section 2 */
+
+main section .info-container>.small-info {
+    padding: 40px;
+}
 
 
 
@@ -262,7 +279,7 @@ main h2 {
 } */
 
 
-.debug #plans> :last-child>.info-container {
+/* .debug #plans> :last-child>.info-container {
     min-height: 200px;
     background-color: rosybrown;
 }
@@ -273,7 +290,7 @@ main h2 {
 
 .debug #plans> :last-child .small-info {
     background-color: lightgoldenrodyellow;
-}
+} */
 
 .debug footer {
     background-color: orchid;
