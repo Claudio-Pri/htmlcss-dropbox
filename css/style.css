@@ -87,6 +87,10 @@ a {
     color: #0061FF;
 }
 
+hr {
+    width: 30%;
+}
+
 /* HEADER */
 #header-top {
     display: flex;
@@ -257,17 +261,22 @@ main .section-2 .info-container>.small-info {
 .client-box-small {
     width: calc(100% / 2);
     height: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    background-color: greenyellow;
-    border: 3px dashed aqua;
+
+}
+
+.green-square {
+    background-color: #A2D39B;
+    border: 10px solid #D1E9CD;
 }
 
 .client-review {
     padding: 30px;
     height: 100%;
-
-    background-color: lightsalmon;
-    border: 3px dashed red;
+    background-color: #F5F5F5;
 
 }
 
