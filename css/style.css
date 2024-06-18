@@ -25,6 +25,47 @@ html {
 }
 
 /* HEADER */
+#header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+#header-top>nav>ul {
+    display: flex;
+    list-style: none;
+
+}
+
+#header-top>.nav-left>ul>li {
+    margin-right: 15px;
+
+}
+
+#header-top>.nav-right>ul>li {
+    margin-left: 15px;
+
+}
+
+#header-top>.nav-right>ul>li:last-child a {
+    background-color: #0061FF;
+    color: white;
+    border-radius: 2px;
+
+}
+
+#header-top>nav>ul>li>a {
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+
+
 
 /* MAIN */
 
@@ -41,10 +82,20 @@ html {
     border: 3px dashed lightblue;
 }
 
-.debug header {
+/* .debug header {
     background-color: aqua;
     min-height: 50px;
+} */
+
+/* .debug #header-top {
+    background-color: red;
+
 }
+
+.debug #header-top>* {
+    background-color: lawngreen;
+
+} */
 
 .debug main {
     background-color: lightsalmon;
