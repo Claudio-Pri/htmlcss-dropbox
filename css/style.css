@@ -44,6 +44,10 @@ img {
     max-width: 100%;
 }
 
+a {
+    display: inline-block;
+}
+
 .mar-bot-50 {
     margin-bottom: 50px;
 }
@@ -230,6 +234,29 @@ main .section-2 .info-container>.small-info {
     flex-wrap: wrap;
 }
 
+/* main section 4 */
+
+
+.client-banner {
+    display: flex;
+}
+
+.client-box-big {
+    width: calc(100% / 3);
+    height: calc(100vw /3);
+    flex-wrap: wrap;
+
+    background-color: bisque;
+    border: 3px dashed blueviolet;
+}
+
+.client-box-small {
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+
+    background-color: greenyellow;
+    border: 3px dashed aqua;
+}
 
 
 /* FOOTER */
