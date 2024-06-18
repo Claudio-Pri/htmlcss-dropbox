@@ -20,7 +20,7 @@ html {
 }
 
 .container-small {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -38,6 +38,10 @@ html {
 
 img {
     max-width: 100%;
+}
+
+.mar-bot-50 {
+    margin-bottom: 50px;
 }
 
 /* HEADER */
@@ -123,15 +127,46 @@ img {
 }
 
 
-
-
-
-
 /* MAIN */
 
 main {
     padding-top: 100px;
 }
+
+main h2 {
+    margin-bottom: 35px;
+}
+
+
+#plans {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#plans>* {
+    border: 1px solid grey;
+    width: 30%;
+    margin-bottom: 30px;
+
+}
+
+#plans> :last-child {
+    width: 100%;
+}
+
+#plans .plan-title {
+    border-bottom: 1px solid grey;
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+#plans .plan-body {
+    padding: 10px;
+
+}
+
 
 /* FOOTER */
 
@@ -179,8 +214,8 @@ main {
 } */
 
 .debug main {
-    background-color: lightsalmon;
-    min-height: 100px;
+    background-color: wheat;
+
 }
 
 .debug main section {
