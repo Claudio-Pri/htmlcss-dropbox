@@ -44,6 +44,21 @@ img {
     margin-bottom: 50px;
 }
 
+.mar-bot-20 {
+    margin-bottom: 20px;
+}
+
+.blue-btn {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #0061FF;
+    color: white;
+    border-radius: 2px;
+
+}
+
 /* HEADER */
 #header-top {
     display: flex;
@@ -101,7 +116,7 @@ img {
 #header-bottom .jumbo-box h1 {
     font-size: 3.8rem;
     font-weight: 900;
-    margin-bottom: 20px;
+
 }
 
 #header-bottom .jumbo-box .info-container {
@@ -112,19 +127,7 @@ img {
     padding-bottom: 75px;
 }
 
-#header-bottom .jumbo-box .small-info a {
-    display: inline-block;
-    text-decoration: none;
-    padding: 10px;
-    background-color: #0061FF;
-    color: white;
-    border-radius: 2px;
 
-}
-
-#header-bottom .jumbo-box .small-info>* {
-    margin-bottom: 20px;
-}
 
 
 /* MAIN */
@@ -163,9 +166,36 @@ main h2 {
 }
 
 #plans .plan-body {
-    padding: 10px;
+    padding: 20px;
 
 }
+
+#plans .plan-features-box {
+    height: 400px;
+}
+
+
+#plans .plan-body .plan-features-box ul {
+    list-style: none;
+}
+
+
+/* da correggere stile lista con icone */
+
+#plans .plan-body .trial-links .blue-btn {
+    width: 100%;
+
+}
+
+#plans> :last-child>.plan-body .small-info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+
 
 
 /* FOOTER */
@@ -213,13 +243,32 @@ main h2 {
     background-color: navajowhite;
 } */
 
-.debug main {
+/* .debug main {
     background-color: wheat;
 
 }
 
 .debug main section {
-    border: 2px dashed blueviolet;
+    border: 2px dashed red;
+}
+
+.debug main .plan-content-box {
+    background-color: lightcoral;
+    min-height: 400px;
+} */
+
+
+.debug #plans> :last-child>.info-container {
+    min-height: 200px;
+    background-color: rosybrown;
+}
+
+.debug #plans> :last-child .big-info {
+    background-color: aquamarine;
+}
+
+.debug #plans> :last-child .small-info {
+    background-color: lightgoldenrodyellow;
 }
 
 .debug footer {
