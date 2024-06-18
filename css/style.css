@@ -14,7 +14,12 @@ html {
 /* 
     GENERAL
 */
-.container {
+.container-large {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-small {
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -27,3 +32,30 @@ html {
 
 
 /* DEBUG */
+
+.debug .container-large {
+    border: 3px dashed red;
+}
+
+.debug .container-small {
+    border: 3px dashed lightblue;
+}
+
+.debug header {
+    background-color: aqua;
+    min-height: 50px;
+}
+
+.debug main {
+    background-color: lightsalmon;
+    min-height: 100px;
+}
+
+.debug main section {
+    border: 2px dashed blueviolet;
+}
+
+.debug footer {
+    background-color: orchid;
+    min-height: 100px;
+}
