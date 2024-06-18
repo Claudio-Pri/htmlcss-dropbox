@@ -244,6 +244,7 @@ main .section-2 .info-container>.small-info {
 
 /* main section 4 */
 
+/* Manca il bianco sulle immagini */
 
 .client-banner {
     display: flex;
@@ -253,9 +254,6 @@ main .section-2 .info-container>.small-info {
     width: calc(100% / 3);
     height: calc(100vw /3);
     flex-wrap: wrap;
-
-    background-color: bisque;
-    border: 3px dashed blueviolet;
 }
 
 .client-box-small {
@@ -271,6 +269,34 @@ main .section-2 .info-container>.small-info {
 .green-square {
     background-color: #A2D39B;
     border: 10px solid #D1E9CD;
+}
+
+.brown-square {
+    background-color: #61082B;
+}
+
+.light-blue-square {
+    background-color: #0093CE;
+}
+
+.orange-square {
+    background-color: #FF1C1C;
+}
+
+.red-square {
+    background-color: #D5001F;
+}
+
+.pale-blue-square {
+    background-color: #B4D0E7;
+}
+
+.dark-blue-square {
+    background-color: #0D2481;
+}
+
+.yellow-square {
+    background-color: #FFD830;
 }
 
 .client-review {
