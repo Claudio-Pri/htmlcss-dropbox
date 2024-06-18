@@ -59,6 +59,10 @@ img {
 
 }
 
+.blue-txt {
+    color: #0061FF;
+}
+
 /* HEADER */
 #header-top {
     display: flex;
