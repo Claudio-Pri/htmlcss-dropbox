@@ -56,6 +56,11 @@ a {
     margin-bottom: 20px;
 }
 
+.mar-bot-15 {
+    margin-bottom: 15px;
+}
+
+
 .mar-bot-40 {
     margin-bottom: 40px;
 }
@@ -352,6 +357,7 @@ main .section-2 .info-container>.small-info {
 
 /* FOOTER */
 footer {
+    background-color: black;
     color: white;
     padding-top: 80px;
 }
@@ -369,6 +375,14 @@ footer {
     text-decoration: none;
     color: white;
 
+}
+
+footer hr {
+    width: 10%;
+}
+
+footer .footer-bottom>div {
+    padding-bottom: 40px;
 }
 
 /* DEBUG */
@@ -451,7 +465,7 @@ footer {
 
 
 
-.debug footer {
+/* .debug footer {
     background-color: orchid;
     min-height: 100px;
 }
@@ -460,4 +474,4 @@ footer {
     background-color: aqua;
     min-height: 200px;
     border: 2px dashed orangered;
-}
+} */
