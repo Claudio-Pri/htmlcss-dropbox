@@ -171,6 +171,10 @@ main h2 {
     font-size: 2rem;
 }
 
+main hr {
+    width: 30%;
+}
+
 /*main section 1 */
 main .section-1 h2 {
     margin-bottom: 35px;
