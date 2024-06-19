@@ -351,7 +351,25 @@ main .section-2 .info-container>.small-info {
 
 
 /* FOOTER */
+footer {
+    color: white;
+    padding-top: 80px;
+}
 
+
+.bot-nav-box {
+    width: calc(100% / 5);
+}
+
+.bot-nav-box ul {
+    list-style: none;
+}
+
+.bot-nav-box ul>li>a {
+    text-decoration: none;
+    color: white;
+
+}
 
 /* DEBUG */
 
@@ -436,4 +454,10 @@ main .section-2 .info-container>.small-info {
 .debug footer {
     background-color: orchid;
     min-height: 100px;
+}
+
+.debug .footer-top .bot-nav-box {
+    background-color: aqua;
+    min-height: 200px;
+    border: 2px dashed orangered;
 }
