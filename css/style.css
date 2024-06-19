@@ -210,13 +210,13 @@ main .section-1 h2 {
 }
 
 #plans .plan-features-box {
-    height: 400px;
+    height: 300px;
 }
 
 
-#plans .plan-body .plan-features-box ul {
+/* #plans .plan-body .plan-features-box ul {
     list-style: none;
-}
+} */
 
 
 /* da correggere stile lista con icone */
@@ -265,8 +265,6 @@ main .section-2 .info-container>.small-info {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .green-square {
